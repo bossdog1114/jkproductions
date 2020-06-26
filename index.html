@@ -1,0 +1,77 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+  <title>Kemp Photography</title>
+  <meta name="description" content="website description" />
+  <meta name="keywords" content="website keywords, website keywords" />
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+  <!-- stylesheets -->
+  <link href="css/style.css" rel="stylesheet" type="text/css" />
+  <link href="css/colour.css" rel="stylesheet" type="text/css" />
+  <!-- modernizr enables HTML5 elements and feature detects -->
+  <script type="text/javascript" src="js/modernizr-1.5.min.js"></script>
+</head>
+
+<body>
+  <div id="main">
+
+    <!-- begin header -->
+    <header>
+      <div id="logo"><img width="950" height="100" src="images/klogo.png" /></div>
+      <nav>
+        <ul class="sf-menu" id="nav">
+          <li class="selected"><a href="index.html">home</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="#">Gallery</a>
+            <ul>
+              <li><a href="family.html">Family and Children</a></li>
+              <li><a href="weddings.html">Weddings</a></li>
+              <li><a href="bands.html">Bands shots</a></li>
+              <li><a href="cars.html">Cars and Motorcycles</a></li>
+              <li><a href="action.html">Action shots</a></li>
+              <li><a href="senior.html">Senior Pictures</a></li>
+              <li><a href="photobooths.html">Photobooths</a></li>
+            </ul>
+          </li>
+          <li><a href="blog.html">blog</a></li>
+          <li><a href="contact.html">contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <!-- end header -->
+
+    <!-- begin content -->
+    <div id="site_content">
+      <ul class="slideshow">
+        <li class="show"><img width="950" height="450" src="images/home_1.jpg" alt="&quot;You can put a caption for your image right here&quot;" /></li>
+        <li><img width="950" height="450" src="images/home_2.jpg" alt="&quot;Relics in Antiques Band shots.&quot;" /></li>
+        <li><img width="950" height="450" src="images/home_3.jpg" alt="&quot;Find out when our next Mini Shoot day is.&quot;" /></li>
+        <li><img width="950" height="450" src="images/home_4.jpg" alt="&quot;Natural lighting shots;" /></li>
+      </ul>
+    </div>
+    <!-- end content -->
+
+    <!-- begin footer -->
+    <footer>
+      <p>Copyright &copy; 2015 Joseph Kemp Productions. All Rights Reserved. <a href="http://www.josephkempproductions.com">Joseph Kemp Productions</a>.</p>
+      <p><a href="https://twitter.com/kempproductions"> <img src="images/twitter.png"</a>&nbsp;
+      	<a href="https://www.facebook.com/josephkempproductions"><img src="images/facebook.png"</a>&nbsp;
+      	<img src="images/rss.png" alt="rss" /></p>
+    </footer>
+    <!-- end footer -->
+
+  </div>
+  <!-- javascript at the bottom for fast page loading -->
+  <script type="text/javascript" src="js/jquery.min.js"></script>
+  <script type="text/javascript" src="js/jquery.easing-sooper.js"></script>
+  <script type="text/javascript" src="js/jquery.sooperfish.js"></script>
+  <script type="text/javascript" src="js/image_fade.js"></script>
+  <!-- initialise sooperfish menu -->
+  <script type="text/javascript">
+    $(document).ready(function() {
+      $('ul.sf-menu').sooperfish();
+    });
+  </script>
+</body>
+</html>
